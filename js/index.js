@@ -4,7 +4,7 @@ let footer =  document.querySelector('footer')
 let copyright = document.createElement('p')
 footer.appendChild(copyright);
 
-skills = ["Working with HTML and CSS", "Working with JavaScript", "Understanding debugging"]
+skills = ["HTML", "CSS", "JavaScript", "FL Studio 20"]
 skillsSelection = document.getElementById('Skills')
 skillsList = skillsSelection.querySelector('ul')
 for (let i = 0; i< skills.length; i++){
