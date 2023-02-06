@@ -6,7 +6,10 @@ body {
 }
 
 #my_photo{
-    height: 50px;
+    margin-left: 1.3cm;
+    height: 45px;
+    width:45px;
+    border-radius: 50%;
 }
 
 section {
@@ -49,14 +52,16 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center ;
-    padding: 30px 10%;
+    padding: 10px 10%;
     font-family: Arial;
 }
-.header p {
-    padding:5px;
-    margin:-10px;
-    font-size: 2em;
+#myName {
+    padding:30px;
+    padding-right: -5cm;
+    margin:-20px;
+    font-size: 1.4em;
 }
+
 .nav_links{
     list-style: none;
 }
@@ -80,10 +85,34 @@ footer{
     padding: 10px 10%;
 }
 
-.container nav ul li a {
+.container a {
     display:inline-block;
     padding: 0px 10px ;
+
 }
+
+.fa-facebook {
+    background: #000000;
+    color: white;
+    text-decoration: none;
+    padding-right: 0.3cm;
+    margin-left:19cm ;
+
+}
+.fa-instagram {
+    background: #000000;
+    color: white;
+    text-decoration: none;
+    padding-right: 0.3cm;
+}
+.fa-github {
+    background: #000000;
+    color: white;
+    text-decoration: none;
+    padding-right: 0.3cm;
+}
+
+
 
 .input_text{
     width:200px;
@@ -147,8 +176,11 @@ footer{
     margin-top: 0.5cm ;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     #nav_links {
         display: none;
+    }
+    .fa-facebook{
+        margin-left:1cm ;
     }
 }
