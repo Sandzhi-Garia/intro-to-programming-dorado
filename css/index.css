@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(74, 155, 237);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: Arial;
+}
+
+section {
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    margin:10px;
+}
+
+h2 {
+    font-size: 30px ;
+    font-weight: 100px;
+    color:brown;
+}
+
+#Leave_a_message{
+    color:rgb(255, 213, 0);
+    font-size: large;
+}
+.header {
+    padding:50px;
+    margin:-10px;
+    font-size:100px;
+}
+.footer{
+    padding:50px;
+    margin:-10px;
+    font-size:100px;
+}
+
+.input_text{
+    width:200px;
+}
+
+.messages li{
+    border:3px solid rgb(0, 0, 0);
+    background-color: brown;
+    padding: 1cm;
+}
+.messages button{
+    font-size: 60px;
+}
+#submit_email{
+    background-color:powderblue; 
+    font-size: large;
+}
+@media screen and (min-width: 480px) {
+    #messageForm {
+        width:400px;
+    }
+}
+
